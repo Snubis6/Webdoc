@@ -1,0 +1,77 @@
+/* Main Entrance Styling */
+
+.menuItems{    
+    text-decoration: none;
+    color: white;
+    font-size: 60px;   
+}
+.menuBox{
+    border-left-style: solid;
+    padding-left: 3vw;
+    line-height: 1.8;
+    max-height: 340px;
+    color: white;
+}
+.mainScreen{
+    
+    display: flex; 
+    position: absolute;
+    right: 10vw;
+    bottom: 30vh;     
+    
+}
+
+.questionBox{
+    padding-right: 12vw;
+    color: white;
+}
+.menuItemsPoints{
+    max-width: 25px;
+    padding-right: 10px;
+    margin-bottom: 5px;    
+    
+}
+#question{
+    font-size: 150px;
+    margin-top: 80px;
+    
+}
+
+/* Styling For All Background Videos */
+.backgroundVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Navigation + Logo */
+.navigation{
+    background-color: aqua;
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+}
+
+a.navigation{
+    font-size: 40px;
+}
+
+/* Every Day Denmark page styling */
+
+.mainScreenEDD{
+    
+    display: flex; 
+    position: absolute;
+    right: 3vw;
+    bottom: 1vh;     
+    background-color: aqua;
+    min-width: 35vw;
+}
+
+.menuBoxEDD{
+    padding-left: 3vw;
+    line-height: 1.8;
+    color: white;
+}
